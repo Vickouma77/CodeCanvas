@@ -14,21 +14,24 @@ CodeCanvas converts code snippets into images by pixelating the code. Each chara
 
 ```bash
 git clone https://github.com/Vickouma77/CodeCanvas.git
-cd CodeCanvas
+
+cd CodeCanvas  #to navigate to the CodeCanvas directory
 ```
 
 :two: ***Create a virtual environment*** and install the required packages using the following commands:
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate #to activate the virtual environment
-pip install -r requirements.txt  #to install the required packages
+python3 -m venv venv    #to create a virtual environment
+
+source venv/bin/activate    #to activate the virtual environment
+
+pip install -r requirements.txt   #to install the required packages
 ```
 
 :three: ***Playwright Installation***:
 
 ```bash
-playwright install #to install the required browsers
+playwright install    #to install the required browsers
 ```
 
 for more information about playwright installation, please visit the following link: [Playwright Installation](https://playwright.dev/python/docs/intro)
@@ -36,7 +39,7 @@ for more information about playwright installation, please visit the following l
 :four: ***Run the CodeCanvas***:
 
 ```bash
-flask run #to run the CodeCanvas
+flask run    #to run the CodeCanvas
 ```
 
 :five: ***Open the browser***
