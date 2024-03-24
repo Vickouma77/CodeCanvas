@@ -75,3 +75,9 @@ select {
     max-width: 80%;
     padding: 1em;
 }
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+}
